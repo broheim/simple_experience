@@ -43,7 +43,7 @@ minetest.register_on_dignode(function(pos, oldnode, digger)
 		amount_of_xp = 10
 	elseif node_name == "default:stone_with_mese" then
 		give_xp = true
-		amount_of_xp = 50
+		amount_of_xp = 30
 	end
 	
 	--add the appropriate amount of xp to the players file
